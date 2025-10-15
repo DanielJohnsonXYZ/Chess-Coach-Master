@@ -1,0 +1,21 @@
+{
+  "name": "chess-coach-app",
+  "version": "1.0.0",
+  "description": "Chess Coach Web App - Play, learn, and improve with AI-powered coaching",
+  "scripts": {
+    "install-all": "cd frontend && npm install && cd ../backend && npm install",
+    "dev": "echo 'Please run frontend and backend separately:\n  Terminal 1: cd backend && npm run dev\n  Terminal 2: cd frontend && npm run dev'",
+    "build-all": "cd frontend && npm run build && cd ../backend && npm run build",
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && npm run dev"
+  },
+  "keywords": [
+    "chess",
+    "ai",
+    "coaching",
+    "claude",
+    "learning"
+  ],
+  "author": "",
+  "license": "ISC"
+}
